@@ -1,0 +1,818 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SUPREME & SUPREME SCHOOL</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/Picture.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						 <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Check Result </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Primary School Student Result</a>
+								<a class="dropdown-item" href="blog 2.html">Secondary School Student Result</a>
+							</div>
+						</li>
+	
+							<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+
+				 </div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>PRIMARY ONE <span class="m_1">Primary one Students rresult</span></h1>
+ </div>
+	</div>
+ </div> </div> </div> <table border="3" Cellspacing="0" Width= "800" align= "center" cell pading= "4">
+<tr height= "60">
+<th colspan= "10"> SUPREME & SUPREME SCHOOL</th>
+</tr>
+<tr>
+<th rowspan="3"> S/No</th>
+<th rowspan="3"> Name</th>
+<th colspan="14"> Subjects</th>
+<th rowspan="3"> Total Mark</th>
+<th rowspan="3"> Obtained Mark</th>
+<th rowspan="3"> Percentage</th>
+</tr>
+<tr>
+<th colspan= "2"> MATHEMATICS </th>
+<th colspan= "2"> ENGLISH </th>
+<th colspan= "2"> CHEMISTRY </th>
+<th colspan= "2"> PHYSICS </th>
+<th colspan= "2"> BIOLOGY </th>
+<th colspan= "2"> Civic Education </th>
+<th colspan= "2"> HAUSA </th>
+</tr>
+<tr>
+<th> TEST </th>
+<<th> EXAM </th>
+<th> TEST </th>
+<<th> EXAM </th>
+<th> TEST </th>
+<<th> EXAM </th>
+<th> TEST </th>
+<<th> EXAM </th>
+<th> TEST </th>
+<<th> EXAM </th>
+<th> TEST </th>
+<<th> EXAM </th>
+<th> TEST </th>
+<<th> EXAM </th>
+</tr>
+<tr>
+<th> 1 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<tr>
+<th> 2 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<tr>
+<th> 3 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 4 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 5 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 6 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 7 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 8 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 9 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 10 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 11 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 12 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 13 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 14 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 15 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 16 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 17 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 18 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 19 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 20 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 21 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 22 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 23 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 24 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 25 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 26 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 27 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 28 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 29 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+<th> 30 </th>
+<th> OLAYIWOLA AZEEZ </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100 </th>
+<th> 100% </th>
+</tr>
+					
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
